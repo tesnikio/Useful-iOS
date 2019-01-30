@@ -1,3 +1,3 @@
 # Useful Patterns
 
-More flexible and more reusable examples of different iOS things.
+Flexible and reusable examples of different iOS things.
