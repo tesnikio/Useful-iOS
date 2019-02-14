@@ -1,9 +1,5 @@
-//
-//  NibLoadable.swift
-//
-//  Created by Nikita Teslyuk on 11/02/2019.
 //  Copyright © 2019 Tesnik. All rights reserved.
-//
+
 
 import UIKit
 
