@@ -1,6 +1,3 @@
-//  Copyright © 2019 Tesnik. All rights reserved.
-
-
 import UIKit
 
 protocol NibLoadable: class {
