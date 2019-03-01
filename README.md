@@ -1,3 +1,3 @@
 # Useful iOS 
 
-Flexible and reusable examples of different iOS things.
+Flexible and reusable approaches of different iOS things.
