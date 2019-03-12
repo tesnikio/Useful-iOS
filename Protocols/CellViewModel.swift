@@ -1,11 +1,3 @@
-//
-//  CellViewModel.swift
-//  Demo #2
-//
-//  Created by Alexander Zimin on 17/05/2017.
-//  Copyright © 2017 Alexander Zimin. All rights reserved.
-//
-
 import UIKit
 
 protocol CellViewAnyModel {
@@ -29,43 +21,6 @@ extension CellViewModel {
     } else {
       assertionFailure("Wrong usage")
     }
-  }
-}
-
-struct BannerTableViewCellModel {
-  let bannerImage: UIImage
-  let title: String
-}
-
-struct PersonTableViewCellModel {
-  let person: Person
-  
-  var fullName: String {
-    return person.name + " " + person.surname
-  }
-}
-
-struct OtherTableViewCellModel {
-  let image: UIImage
-}
-
-extension BannerTableViewCellModel: CellViewModel {
-  func setup(cell: BannerTableViewCell) {
-    cell.bannerLabel.text = title
-    cell.bannerImageView.image = bannerImage
-  }
-}
-
-extension PersonTableViewCellModel: CellViewModel {
-  func setup(cell: PersonTableViewCell) {
-    cell.nameLabel.text = fullName
-    cell.ageLabel.text = "\(person.age)"
-  }
-}
-
-extension OtherTableViewCellModel: CellViewModel {
-  func setup(cell: OtherTableViewCell) {
-    cell.badooImageView.image = image
   }
 }
 
