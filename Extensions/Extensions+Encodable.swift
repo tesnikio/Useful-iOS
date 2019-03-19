@@ -1,11 +1,3 @@
-//
-//  Extensions+Encodable.swift
-//  NTVK
-//
-//  Created by Nikita Teslyuk on 15/02/2019.
-//  Copyright © 2019 Tesnik. All rights reserved.
-//
-
 import Foundation
 
 extension Encodable {
