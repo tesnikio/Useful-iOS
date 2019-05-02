@@ -1,11 +1,3 @@
-//
-//  UIView+Stacking.swift
-//  video-social
-//
-//  Created by Brian Voong on 4/28/19.
-//  Copyright © 2019 Tieda Wei. All rights reserved.
-//
-
 import UIKit
 
 extension UIView {
