@@ -1,7 +1,6 @@
 import UIKit
 
 extension UIView {
-  
   @discardableResult
   func withSize(size: CGSize) -> UIView {
     translatesAutoresizingMaskIntoConstraints = false
