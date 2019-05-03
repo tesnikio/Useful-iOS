@@ -1,11 +1,3 @@
-//
-//  UILabel.swift
-//  SwipeMatchFirestoreLBTA
-//
-//  Created by Brian Voong on 4/26/19.
-//  Copyright © 2019 Brian Voong. All rights reserved.
-//
-
 import UIKit
 
 extension UILabel {
