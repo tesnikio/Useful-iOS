@@ -11,8 +11,7 @@ public struct DateTime {
     public let dayOfYear: Int32  // 0 ... 365
 }
 
-private let daysSinceJan1st: [[UInt32]] =
-[
+private let daysSinceJan1st: [[UInt32]] = [
     [0,31,59,90,120,151,181,212,243,273,304,334,365], // 365 days, non-leap
     [0,31,60,91,121,152,182,213,244,274,305,335,366]  // 366 days, leap
 ]
