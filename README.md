@@ -1,3 +1,3 @@
 # Useful iOS 
 
-Flexible and reusable approaches of different iOS things.
+A list of awesome iOS categories, extensions, utilities and components.
