@@ -1,11 +1,3 @@
-//
-//  SeparatorView.swift
-//  NTAppStore
-//
-//  Created by Nikita Teslyuk on 13/08/2019.
-//  Copyright © 2019 Tesnik. All rights reserved.
-//
-
 import UIKit
 
 internal final class SeparatorView: UIView {
