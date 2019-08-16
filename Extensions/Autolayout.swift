@@ -1,11 +1,3 @@
-//
-//  Autolayout.swift
-//  Utils
-//
-//  Created by Dmitry Trimonov on 16/03/2019.
-//  Copyright © 2019 Dmitry Trimonov. All rights reserved.
-//
-
 import UIKit
 
 public enum Centering {
